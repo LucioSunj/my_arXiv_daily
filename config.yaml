@@ -34,6 +34,8 @@ keywords:
     filters: ["Vision Language Model", "Vision Language Models", "Vision-Language Model", "Vision-Language Models"]
   "RL Post Training":
     filters: ["Reinforcement Learning LLM", "RLHF", "RL Fine-tuning", "RL Alignment", "RL Vision Language", "RL VLM", "Reinforcement VLM", "RL VLA", "RL VLN", "RL Flow Matching", "RL Diffusion Policy", "RLAIF", "DPO"]
+  "World Model":
+    filters: ["World Model", "World Models", "Generative World Model", "Latent World Model", "Visual World Model", "Video World Model", "World Foundation Model", "Model-Based Reinforcement Learning", "Model Based Reinforcement Learning", "Model-Based RL", "Dynamics Model", "Environment Model", "Generative Dynamics Model", "PlaNet", "Dreamer", "DreamerV2", "TD-MPC", "TD-MPC2"]
 #   "DA & DG":
 #     filters: ["Domain Adaptation", "Unsupervised Domain Adaptation", "Source-free Domain Adaptation", "Test-time Domain Adaptation",
 #       "Domain Generalization", "Source-free Domain Generalization", "Test-time Domain Generalization"]
