@@ -3,7 +3,7 @@ user_name: "LucioSunj"
 repo_name: "my-arxiv-daily"
 
 show_badge: false
-max_results: 50
+max_results: 200
 
 publish_readme: true
 publish_gitpage: true
@@ -20,22 +20,68 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords
 keywords:
-  "Robot & Agent":
-    filters: ["Embodied Agent", "Robot Learning", "Robot Policy", "Robot Policies", "Human-Robot", "Cross-Embodiment"]
   "Robotic Manipulation":
-    filters: ["Robot Manipulation", "Robotic Manipulation", "Grasp", "Robot Grasp", "World Model"]
+    filters: ["Robot Manipulation", "Robotic Manipulation", "Robot Learning", "Imitation Learning"]
+  "Spatial Awareness":
+    filters: ["Spatial Awareness", "Spatial Reasoning", "Spatial Understanding", "Spatial Perception", "3D Spatial", "Spatial Manipulation", "6D Pose", "Pose Estimation", "Spatial Relationship", "Spatial Cognition"]
+  # "Temporal Understanding":
+  #   filters: ["Temporal Understanding", "Temporal Reasoning", "Temporal Modeling", "Action Prediction", "Long-term Planning", "Temporal Action", "Sequential Decision Making", "Temporal Dynamics", "Action Anticipation", "Future Prediction", "Temporal Consistency"]
   "Vision Language Action Model":
     filters: ["Vision-Language-Action Model", "Vision Language Action Model"]
-  "Imitation Learning":
-    filters: ["Imitation Learning", "Behavior Cloning", "Behavioral Cloning"]
-  "Robotic Navigation":
-    filters: ["Robot Navigation", "Vision-and-Language Navigation", "Vision Language Navigation", "Vision-Language-Navigation"]
+  #"Robotic Navigation":
+    #filters: ["Robot Navigation", "Vision-and-Language Navigation", "Vision Language Navigation", "Vision-Language-Navigation"]
   "VLM":
     filters: ["Vision Language Model", "Vision Language Models", "Vision-Language Model", "Vision-Language Models"]
+  "World Model":
+    filters: ["World Model", "World Models", "Generative World Model", "Latent World Model", "Visual World Model", "Video World Model", "World Foundation Model", "Dynamics Model", "Environment Model", "Generative Dynamics Model", "Dreamer"]
   "RL Post Training":
     filters: ["Reinforcement Learning LLM", "RLHF", "RL Fine-tuning", "RL Alignment", "RL Vision Language", "RL VLM", "Reinforcement VLM", "RL VLA", "RL VLN", "RL Flow Matching", "RL Diffusion Policy", "RLAIF", "DPO"]
-  "World Model":
-    filters: ["World Model", "World Models", "Generative World Model", "Latent World Model", "Visual World Model", "Video World Model", "World Foundation Model", "Model-Based Reinforcement Learning", "Model Based Reinforcement Learning", "Model-Based RL", "Dynamics Model", "Environment Model", "Generative Dynamics Model", "PlaNet", "Dreamer", "DreamerV2", "TD-MPC", "TD-MPC2"]
+  #"World Model":
+    #filters: ["World Model", "World Models", "Generative World Model", "Latent World Model", "Visual World Model", "Video World Model", "World Foundation Model", "Dynamics Model", "Environment Model", "Generative Dynamics Model", "Dreamer"]
+  "RL for Robotic Manipulation":
+    filters: [
+      "Reinforcement Learning for Robotic Manipulation",
+      "RL for Robotic Manipulation",
+      "Robot Reinforcement Learning",
+      "Robotic RL",
+      "Visuomotor Reinforcement Learning",
+      "Vision-based Reinforcement Learning",
+      "End-to-End RL Control",
+      "Goal-Conditioned Reinforcement Learning",
+      "Hindsight Experience Replay",
+      "HER",
+      "Reset-free Reinforcement Learning",
+      "Real-World Reinforcement Learning",
+      "Model-Based Reinforcement Learning",
+      "Model-Free Reinforcement Learning",
+      "Offline Reinforcement Learning",
+      "Batch Reinforcement Learning",
+      "Hierarchical Reinforcement Learning",
+      "Skill Discovery",
+      "Reward Shaping",
+      "Sparse Reward",
+      "Sim-to-Real",
+      "Domain Randomization",
+      "Dexterous Manipulation (RL)",
+      "In-hand Manipulation (RL)",
+      "Contact-Rich Manipulation (RL)",
+      "Grasping (RL)",
+      "Pick-and-Place (RL)",
+      "Insertion (RL)",
+      "Peg-in-Hole (RL)",
+      "Pushing (RL)",
+      "Tool Use (RL)",
+      "Deformable Object Manipulation (RL)",
+      "Cloth Manipulation (RL)",
+      "Cable Manipulation (RL)",
+      "Meta-World",
+      "RLBench",
+      "ManiSkill",
+      "D4RL",
+      "FrankaKitchen"
+    ]
+    # "World Model":
+      # filters: ["World Model", "World Models", "Generative World Model", "Latent World Model", "Visual World Model", "Video World Model", "World Foundation Model", "Dynamics Model", "Environment Model", "Generative Dynamics Model", "Dreamer"]
 #   "DA & DG":
 #     filters: ["Domain Adaptation", "Unsupervised Domain Adaptation", "Source-free Domain Adaptation", "Test-time Domain Adaptation",
 #       "Domain Generalization", "Source-free Domain Generalization", "Test-time Domain Generalization"]
